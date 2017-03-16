@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8102344C1E30590B00C867D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8102344B1E30590B00C867D4 /* main.m */; };
+		8102344F1E30590B00C867D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8102344E1E30590B00C867D4 /* AppDelegate.m */; };
+		810234521E30590B00C867D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 810234511E30590B00C867D4 /* ViewController.m */; };
+		810234551E30590B00C867D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810234531E30590B00C867D4 /* Main.storyboard */; };
+		810234571E30590B00C867D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 810234561E30590B00C867D4 /* Assets.xcassets */; };
+		8102345A1E30590B00C867D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810234581E30590B00C867D4 /* LaunchScreen.storyboard */; };
+		810234651E30590B00C867D4 /* LisztUIWebView_HttpsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 810234641E30590B00C867D4 /* LisztUIWebView_HttpsTests.m */; };
+		810234701E30590B00C867D4 /* LisztUIWebView_HttpsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8102346F1E30590B00C867D4 /* LisztUIWebView_HttpsUITests.m */; };
+		810234801E30593000C867D4 /* UIWebView+Https.m in Sources */ = {isa = PBXBuildFile; fileRef = 8102347F1E30593000C867D4 /* UIWebView+Https.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		810234611E30590B00C867D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8102343F1E30590B00C867D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810234461E30590B00C867D4;
+			remoteInfo = "LisztUIWebView+Https";
+		};
+		8102346C1E30590B00C867D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8102343F1E30590B00C867D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 810234461E30590B00C867D4;
+			remoteInfo = "LisztUIWebView+Https";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		810234471E30590B00C867D4 /* LisztUIWebView+Https.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LisztUIWebView+Https.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8102344B1E30590B00C867D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8102344D1E30590B00C867D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8102344E1E30590B00C867D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		810234501E30590B00C867D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		810234511E30590B00C867D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		810234541E30590B00C867D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		810234561E30590B00C867D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		810234591E30590B00C867D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8102345B1E30590B00C867D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810234601E30590B00C867D4 /* LisztUIWebView+HttpsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LisztUIWebView+HttpsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810234641E30590B00C867D4 /* LisztUIWebView_HttpsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztUIWebView_HttpsTests.m; sourceTree = "<group>"; };
+		810234661E30590B00C867D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8102346B1E30590B00C867D4 /* LisztUIWebView+HttpsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LisztUIWebView+HttpsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8102346F1E30590B00C867D4 /* LisztUIWebView_HttpsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LisztUIWebView_HttpsUITests.m; sourceTree = "<group>"; };
+		810234711E30590B00C867D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8102347E1E30593000C867D4 /* UIWebView+Https.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+Https.h"; sourceTree = "<group>"; };
+		8102347F1E30593000C867D4 /* UIWebView+Https.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+Https.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		810234441E30590B00C867D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8102345D1E30590B00C867D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810234681E30590B00C867D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8102343E1E30590B00C867D4 = {
+			isa = PBXGroup;
+			children = (
+				810234491E30590B00C867D4 /* LisztUIWebView+Https */,
+				810234631E30590B00C867D4 /* LisztUIWebView+HttpsTests */,
+				8102346E1E30590B00C867D4 /* LisztUIWebView+HttpsUITests */,
+				810234481E30590B00C867D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		810234481E30590B00C867D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				810234471E30590B00C867D4 /* LisztUIWebView+Https.app */,
+				810234601E30590B00C867D4 /* LisztUIWebView+HttpsTests.xctest */,
+				8102346B1E30590B00C867D4 /* LisztUIWebView+HttpsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		810234491E30590B00C867D4 /* LisztUIWebView+Https */ = {
+			isa = PBXGroup;
+			children = (
+				8102347D1E30592500C867D4 /* UIWebView+Https */,
+				8102344D1E30590B00C867D4 /* AppDelegate.h */,
+				8102344E1E30590B00C867D4 /* AppDelegate.m */,
+				810234501E30590B00C867D4 /* ViewController.h */,
+				810234511E30590B00C867D4 /* ViewController.m */,
+				810234531E30590B00C867D4 /* Main.storyboard */,
+				810234561E30590B00C867D4 /* Assets.xcassets */,
+				810234581E30590B00C867D4 /* LaunchScreen.storyboard */,
+				8102345B1E30590B00C867D4 /* Info.plist */,
+				8102344A1E30590B00C867D4 /* Supporting Files */,
+			);
+			path = "LisztUIWebView+Https";
+			sourceTree = "<group>";
+		};
+		8102344A1E30590B00C867D4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8102344B1E30590B00C867D4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		810234631E30590B00C867D4 /* LisztUIWebView+HttpsTests */ = {
+			isa = PBXGroup;
+			children = (
+				810234641E30590B00C867D4 /* LisztUIWebView_HttpsTests.m */,
+				810234661E30590B00C867D4 /* Info.plist */,
+			);
+			path = "LisztUIWebView+HttpsTests";
+			sourceTree = "<group>";
+		};
+		8102346E1E30590B00C867D4 /* LisztUIWebView+HttpsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8102346F1E30590B00C867D4 /* LisztUIWebView_HttpsUITests.m */,
+				810234711E30590B00C867D4 /* Info.plist */,
+			);
+			path = "LisztUIWebView+HttpsUITests";
+			sourceTree = "<group>";
+		};
+		8102347D1E30592500C867D4 /* UIWebView+Https */ = {
+			isa = PBXGroup;
+			children = (
+				8102347E1E30593000C867D4 /* UIWebView+Https.h */,
+				8102347F1E30593000C867D4 /* UIWebView+Https.m */,
+			);
+			path = "UIWebView+Https";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		810234461E30590B00C867D4 /* LisztUIWebView+Https */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810234741E30590B00C867D4 /* Build configuration list for PBXNativeTarget "LisztUIWebView+Https" */;
+			buildPhases = (
+				810234431E30590B00C867D4 /* Sources */,
+				810234441E30590B00C867D4 /* Frameworks */,
+				810234451E30590B00C867D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LisztUIWebView+Https";
+			productName = "LisztUIWebView+Https";
+			productReference = 810234471E30590B00C867D4 /* LisztUIWebView+Https.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8102345F1E30590B00C867D4 /* LisztUIWebView+HttpsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 810234771E30590B00C867D4 /* Build configuration list for PBXNativeTarget "LisztUIWebView+HttpsTests" */;
+			buildPhases = (
+				8102345C1E30590B00C867D4 /* Sources */,
+				8102345D1E30590B00C867D4 /* Frameworks */,
+				8102345E1E30590B00C867D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				810234621E30590B00C867D4 /* PBXTargetDependency */,
+			);
+			name = "LisztUIWebView+HttpsTests";
+			productName = "LisztUIWebView+HttpsTests";
+			productReference = 810234601E30590B00C867D4 /* LisztUIWebView+HttpsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8102346A1E30590B00C867D4 /* LisztUIWebView+HttpsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8102347A1E30590B00C867D4 /* Build configuration list for PBXNativeTarget "LisztUIWebView+HttpsUITests" */;
+			buildPhases = (
+				810234671E30590B00C867D4 /* Sources */,
+				810234681E30590B00C867D4 /* Frameworks */,
+				810234691E30590B00C867D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8102346D1E30590B00C867D4 /* PBXTargetDependency */,
+			);
+			name = "LisztUIWebView+HttpsUITests";
+			productName = "LisztUIWebView+HttpsUITests";
+			productReference = 8102346B1E30590B00C867D4 /* LisztUIWebView+HttpsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8102343F1E30590B00C867D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Liszt;
+				TargetAttributes = {
+					810234461E30590B00C867D4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = WQ25C5R45W;
+						ProvisioningStyle = Automatic;
+					};
+					8102345F1E30590B00C867D4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7ZZ2949LXY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 810234461E30590B00C867D4;
+					};
+					8102346A1E30590B00C867D4 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 7ZZ2949LXY;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 810234461E30590B00C867D4;
+					};
+				};
+			};
+			buildConfigurationList = 810234421E30590B00C867D4 /* Build configuration list for PBXProject "LisztUIWebView+Https" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8102343E1E30590B00C867D4;
+			productRefGroup = 810234481E30590B00C867D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				810234461E30590B00C867D4 /* LisztUIWebView+Https */,
+				8102345F1E30590B00C867D4 /* LisztUIWebView+HttpsTests */,
+				8102346A1E30590B00C867D4 /* LisztUIWebView+HttpsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		810234451E30590B00C867D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8102345A1E30590B00C867D4 /* LaunchScreen.storyboard in Resources */,
+				810234571E30590B00C867D4 /* Assets.xcassets in Resources */,
+				810234551E30590B00C867D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8102345E1E30590B00C867D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810234691E30590B00C867D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810234431E30590B00C867D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810234521E30590B00C867D4 /* ViewController.m in Sources */,
+				810234801E30593000C867D4 /* UIWebView+Https.m in Sources */,
+				8102344F1E30590B00C867D4 /* AppDelegate.m in Sources */,
+				8102344C1E30590B00C867D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8102345C1E30590B00C867D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810234651E30590B00C867D4 /* LisztUIWebView_HttpsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		810234671E30590B00C867D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				810234701E30590B00C867D4 /* LisztUIWebView_HttpsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		810234621E30590B00C867D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810234461E30590B00C867D4 /* LisztUIWebView+Https */;
+			targetProxy = 810234611E30590B00C867D4 /* PBXContainerItemProxy */;
+		};
+		8102346D1E30590B00C867D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 810234461E30590B00C867D4 /* LisztUIWebView+Https */;
+			targetProxy = 8102346C1E30590B00C867D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		810234531E30590B00C867D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810234541E30590B00C867D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		810234581E30590B00C867D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				810234591E30590B00C867D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		810234721E30590B00C867D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		810234731E30590B00C867D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		810234751E30590B00C867D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = "LisztUIWebView+Https/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztUIWebView-Https";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		810234761E30590B00C867D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WQ25C5R45W;
+				INFOPLIST_FILE = "LisztUIWebView+Https/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztUIWebView-Https";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		810234781E30590B00C867D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7ZZ2949LXY;
+				INFOPLIST_FILE = "LisztUIWebView+HttpsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztUIWebView-HttpsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisztUIWebView+Https.app/LisztUIWebView+Https";
+			};
+			name = Debug;
+		};
+		810234791E30590B00C867D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 7ZZ2949LXY;
+				INFOPLIST_FILE = "LisztUIWebView+HttpsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztUIWebView-HttpsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LisztUIWebView+Https.app/LisztUIWebView+Https";
+			};
+			name = Release;
+		};
+		8102347B1E30590B00C867D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7ZZ2949LXY;
+				INFOPLIST_FILE = "LisztUIWebView+HttpsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztUIWebView-HttpsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LisztUIWebView+Https";
+			};
+			name = Debug;
+		};
+		8102347C1E30590B00C867D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 7ZZ2949LXY;
+				INFOPLIST_FILE = "LisztUIWebView+HttpsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Liszt-lz-163.com.LisztUIWebView-HttpsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "LisztUIWebView+Https";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		810234421E30590B00C867D4 /* Build configuration list for PBXProject "LisztUIWebView+Https" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810234721E30590B00C867D4 /* Debug */,
+				810234731E30590B00C867D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		810234741E30590B00C867D4 /* Build configuration list for PBXNativeTarget "LisztUIWebView+Https" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810234751E30590B00C867D4 /* Debug */,
+				810234761E30590B00C867D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		810234771E30590B00C867D4 /* Build configuration list for PBXNativeTarget "LisztUIWebView+HttpsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				810234781E30590B00C867D4 /* Debug */,
+				810234791E30590B00C867D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8102347A1E30590B00C867D4 /* Build configuration list for PBXNativeTarget "LisztUIWebView+HttpsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8102347B1E30590B00C867D4 /* Debug */,
+				8102347C1E30590B00C867D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8102343F1E30590B00C867D4 /* Project object */;
+}
